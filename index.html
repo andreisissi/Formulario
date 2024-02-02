@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+   <title>Formulário</title>
+</head>
+<body>
+
+   <section>
+      <h1>Formulário de Inscrição</h1>
+
+      <div>
+         <form action="" method="get">
+
+<!-- INPUT USUARIO -->
+
+            <div>
+               <input type="text" id="name" class="inputUser" name="name" required>
+               <label for="name">Nome Completo</label>
+            </div>
+
+            <div>
+               <input type="text" id="email" class="inputUser" name="email" required>
+               <label for="email">E-mail</label>
+            </div>
+
+            <div>
+               <input type="tel" id="fone" class="inputUser" name="fone" required>
+               <label for="fone">Telefone</label>
+            </div>
+
+<!-- INPUT GENERO -->
+
+            <p>Sexo:</p>
+
+            <div>
+               <input type="radio" id="feminine" name="gender" class="gender" name="feminine" required>
+               <label for="feminine" style="cursor: pointer;">Feminino</label>
+            </div>
+
+            <div>
+               <input type="radio" id="masculine" name="gender" class="gender" name="masculine" required>
+               <label for="masculine" style="cursor: pointer;">Masculino</label>
+            </div>
+
+            <div>
+               <input type="radio" id="other" name="gender" class="gender" name="other" required>
+               <label for="other" style="cursor: pointer;">Outro</label>
+            </div>
+
+            <label for="data_nasc">Data de Nascimento:</label>
+            <input type="date" id="data_nasc">
+
+<!-- INPUT ENDEREÇO -->
+
+            <div>
+               <input type="text" id="city" class="input_endereco" required>
+               <label for="city">Cidade</label>
+            </div>
+
+            <div>
+               <input type="text" id="state" class="input_endereco" required>
+               <label for="state">Estado</label>
+            </div>
+
+            <div>
+               <input type="text" id="address" class="input_endereco" required>
+               <label for="address">Endereço</label>
+            </div>
+
+            <input type="submit">
+
+         </form>
+      </div>
+   </section>
+   
+</body>
+</html>
