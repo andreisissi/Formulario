@@ -8,6 +8,7 @@
    --primary-color: rgb(89, 89, 179);
    --secondary-color: rgb(23, 23, 57);
    --third-color: whitesmoke;
+   /* --label-color: rgb(252, 91, 91); */
 }
 
 body {
@@ -16,6 +17,8 @@ body {
    font-family: 'Josefin Sans', sans-serif;
    font-size: 20px;
 }
+
+/* INPUT USUARIO */
 
 .section_container {
    background-color: var(--secondary-color);
@@ -87,6 +90,29 @@ body {
    font-size: 15px;
    color: var(--primary-color);
 }
+
+/* INPUT GENERO */
+
+#paragrafo {
+   margin: 25px 0 20px 0;
+}
+
+.container_gender {
+   margin-bottom: 5px;
+   cursor: pointer;
+}
+
+#data_nasc {
+   margin: 15px;
+   border-radius: 5px;
+   outline: none;
+   width: 150px;
+   height: 35px;
+   font-size: 15px;
+   padding: 0 10px;
+   cursor: pointer;
+}
+
 
 
 
